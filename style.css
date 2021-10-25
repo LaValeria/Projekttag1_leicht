@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.header {
+   max-width: 600px;
+   margin: 0 auto;
+   min-height: 300px;
+}
+
+.box {
+    max-width: 600px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 15px; 
+    padding: 5px;
+}
+
+.katze1_text {
+    padding:5px;
+}
+
+.katze2_text {
+    padding:5px;
+}
